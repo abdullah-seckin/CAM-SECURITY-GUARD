@@ -1,0 +1,30 @@
+{
+    "TELEGRAM_TOKEN": "1234567890:YOUR_TELEGRAM_BOT_TOKEN_HERE",
+    "AUTHORIZED_USER_ID": 123456789,
+  
+    "CAMERA_INDEXES": [0],
+  
+    "VIDEO_SAVE_DIR": "/media/user/hdd1/cam-security-guard/videos",
+  
+    "YOLO_MODEL_PATH": "/media/user/hdd1/cam-security-guard/models/yolo11n.pt",
+  
+    "MAX_RECORDER_QUEUE_SIZE": 300,
+    "MAX_ALERT_QUEUE_SIZE": 50,
+  
+    "FRAME_SIZE": [640, 480],
+    "FPS": 25,
+  
+    "MUTE_DURATIONS": {
+      "5min": 300,
+      "15min": 900,
+      "30min": 1800,
+      "1hour": 3600
+    },
+  
+  "SECURE_LEVEL": 1,
+
+  "ADMIN_USERNAME": "username",
+  "ADMIN_PASSWORD": "password",
+
+  "SECRET_KEY": "change_this_to_a_long_random_string"
+}
