@@ -31,13 +31,6 @@ default_section = "THIRDPARTY"
 target-version = "py310"
 line-length = 88
 
-# Enable commonly useful rule sets:
-# E: pycodestyle (PEP8)
-# F: pyflakes
-# I: import sorting
-# B: flake8-bugbear
-# UP: pyupgrade
-# N: naming conventions (optional, you can remove it if it is too strict)
 select = [
   "E",
   "F",
@@ -47,7 +40,6 @@ select = [
   "N",
 ]
 
-# Let Black handle line length; Ruff will not complain about long lines.
 ignore = [
   "E501",
 ]
