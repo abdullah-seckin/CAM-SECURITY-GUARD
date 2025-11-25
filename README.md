@@ -11,6 +11,10 @@ An AI-powered multi-camera security system written in Python.
 
 It is designed to run on a local machine (Linux/macOS/Windows), with storage on an internal or external drive (for example, `/media/user/hdd1/...` on Ubuntu).
 
+## Outputs View
+![Telegram Output](https://github.com/abdullah-seckin/CAM-SECURITY-GUARD/blob/main/Output.png)
+
+
 ---
 
 ## Features
